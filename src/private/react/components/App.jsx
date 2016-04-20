@@ -19,7 +19,9 @@ export default class App extends React.Component {
             }
         };
 
-        var pusher = new Pusher('25f5dee7cef7f2d3e85a', {});
+        var pusher = new Pusher('25f5dee7cef7f2d3e85a', {
+            encrypted: true
+        });
 
         var channel = pusher.subscribe('display_screen');
 
