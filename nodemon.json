@@ -1,0 +1,9 @@
+{
+	"verbose": true,
+	"ignore": [
+		"dist/*/*.*",
+		"node_modules/*/*.*",
+		"src/private/react/*/*.*",
+		"src/private/html/*/*.*"
+	]
+}
